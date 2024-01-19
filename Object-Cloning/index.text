@@ -1,0 +1,47 @@
+<?php
+$A=(float)readline();
+$B=(float)readline();
+
+$h=($A+$B)/2.0;
+
+
+echo "MEDIA = ".(number_format("$h",5,'.',''));
+?>
+
+//avarage
+
+<?php
+$A=(float)readline();
+$B=(float)readline();
+$C=(float)readline();
+
+$h=($A*2+$B*3+$C*5)/10.0;
+
+
+echo "MEDIA = ".number_format("$h" ,'.','')."\n";
+?>
+
+<?php
+$A=(float)readline();
+$B=(float)readline();
+$C=(float)readline();
+
+$h=($A*2+$B*3+$C*5)/10.0;
+
+
+echo "MEDIA = ".number_format("$h",1 ,'.','')."\n";
+?>
+
+//salraly-1008
+<?php
+$A=(int)readline();
+$B=(int)readline();
+$C=(float)readline();
+
+echo "NUMBER = $A"."\n";
+
+$h=$B*$C;
+
+
+echo "SALARY = U$ ".number_format("$h",2 ,'.','')."\n";
+?>
